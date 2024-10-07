@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Menu from './components/Menu';
 import ProjectList from './components/ProjectList';
 import ProjectDetails from './pages/ProjectDetails';
-import Imagem from './components/foto_perfil.png';
 
 const App = () => (
   <Router>
@@ -22,7 +21,6 @@ const App = () => (
       <Footer />
     </div>
   </Router>
-  </Imagem>
 );
 
 export default App;
